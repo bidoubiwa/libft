@@ -6,7 +6,7 @@
 /*   By: cvermand <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/07 18:55:58 by cvermand          #+#    #+#             */
-/*   Updated: 2018/01/03 22:44:28 by cvermand         ###   ########.fr       */
+/*   Updated: 2018/01/04 00:11:14 by cvermand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,4 +102,5 @@ int					ft_lstsize(t_list *begin_list);
 int					ft_match(const char *s1, const char *s2);
 int					get_next_line(const int fd, char **line);
 int					ft_printf(const char *restrict format, ...);
+void				ft_swap(int *a, int *b);
 #endif
