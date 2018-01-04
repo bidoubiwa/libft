@@ -6,7 +6,7 @@
 #    By: cvermand <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/12/08 08:28:21 by cvermand          #+#    #+#              #
-#    Updated: 2018/01/04 00:11:31 by cvermand         ###   ########.fr        #
+#    Updated: 2018/01/04 14:58:25 by cvermand         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,7 +38,7 @@ _LSRC 		=	ft_putchar.c ft_putstr.c ft_memset.c ft_bzero.c ft_memcpy.c \
 				ft_lstsize.c ft_itoa_ll.c ft_match.c ft_itoa_base.c \
 				ft_itoa_base_ll.c ft_strjoin_clr.c ft_atoi_base.c \
 				ft_atoi_base_ll.c ft_strdupifexist.c ft_strtrim_c.c \
-				get_next_line.c ft_swap.c\
+				get_next_line.c ft_swap.c ft_strisvalidint.c\
 
 PRINTF_DIR	= printf
 LIBFT_DIR	= basics

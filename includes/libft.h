@@ -6,7 +6,7 @@
 /*   By: cvermand <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/07 18:55:58 by cvermand          #+#    #+#             */
-/*   Updated: 2018/01/04 00:11:14 by cvermand         ###   ########.fr       */
+/*   Updated: 2018/01/04 14:59:25 by cvermand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,7 @@ int					ft_isalpha(int c);
 int					ft_atoi(const char *str);
 int					ft_atoi_base(const char *str, unsigned int from);
 unsigned long		ft_atoi_base_ll(const char *str, unsigned int from);
+int					ft_strisvalidint(const char *str);
 int					ft_strncmp(const char *s1, const char *s2, size_t n);
 int					ft_strcmp(const char *s1, const char *s2);
 char				*ft_strstr(const char *haystack, const char *needle);
