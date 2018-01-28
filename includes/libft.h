@@ -6,7 +6,7 @@
 /*   By: cvermand <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/07 18:55:58 by cvermand          #+#    #+#             */
-/*   Updated: 2018/01/04 14:59:25 by cvermand         ###   ########.fr       */
+/*   Updated: 2018/01/28 13:51:23 by cvermand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,9 @@ void				ft_bzero(void *str, size_t n);
 void				*ft_memcpy(void *dest, const void *src, size_t n);
 void				*ft_memccpy(void *dst, const void *src, int c, size_t n);
 size_t				ft_strlen(const char *str);
+size_t				ft_strtablen(char **str);
 char				*ft_strdup(const char *str);
+char				**ft_strtabdup(char **str);
 char				*ft_strdupifexist(const char *str);
 int					ft_tolower(int c);
 int					ft_toupper(int c);
@@ -104,4 +106,5 @@ int					ft_match(const char *s1, const char *s2);
 int					get_next_line(const int fd, char **line);
 int					ft_printf(const char *restrict format, ...);
 void				ft_swap(int *a, int *b);
+int					ft_min_int(int a, int b);
 #endif

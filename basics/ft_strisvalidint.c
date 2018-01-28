@@ -6,7 +6,7 @@
 /*   By: cvermand <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/04 14:52:07 by cvermand          #+#    #+#             */
-/*   Updated: 2018/01/04 15:47:45 by cvermand         ###   ########.fr       */
+/*   Updated: 2018/01/13 16:28:33 by cvermand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ int			ft_strisvalidint(const char *str)
 	sign = is_neg(str[i]);
 	if (str[i] == '-' || str[i] == '+')
 		i++;
-	while (ft_isdigit(str[i]))\
+	while (ft_isdigit(str[i]))
 	{
 		res = res * 10 + (sign * (str[i++] - '0'));
 		if (res > 2147483648)

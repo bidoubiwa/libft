@@ -6,7 +6,7 @@
 /*   By: cvermand <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/07 18:55:58 by cvermand          #+#    #+#             */
-/*   Updated: 2017/12/21 17:46:09 by cvermand         ###   ########.fr       */
+/*   Updated: 2018/01/28 13:50:44 by cvermand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,4 +99,5 @@ t_list				*ft_lstswap(t_list *a, t_list *b);
 t_list				*ft_lstlast(t_list *begin_list);
 int					ft_lstsize(t_list *begin_list);
 int					ft_match(const char *s1, const char *s2);
+int					ft_min_int(int a, int b);
 #endif
